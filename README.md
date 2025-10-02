@@ -8,6 +8,7 @@ A personal AI assistant application built with OpenAI's API and Gradio.
 - PDF document reading and analysis
 - Push notifications via Pushover
 - Tool calling capabilities for personalized responses
+- Includes personal CV and summary for enhanced AI assistant personalization
 
 ## Setup
 
@@ -30,6 +31,10 @@ A personal AI assistant application built with OpenAI's API and Gradio.
 ## Usage
 
 The application will start a web interface where you can chat with your AI assistant. The assistant can read PDF files and send push notifications when needed.
+
+The assistant has access to:
+- `summary.txt` - Personal information and background
+- `Roumeliotis_Theodoros_CV.pdf` - Professional CV for career-related questions
 
 ## Deployment
 
